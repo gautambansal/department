@@ -1,0 +1,289 @@
+/*-----------------HEADER------------------*/
+
+
+#header-nav {
+  background-color: #603030;
+  border-radius: 0;
+  /*border: solid;*/
+}
+
+#logo-img{
+  background: url("mbm logo.png")  no-repeat center;
+  background-size: 125px;
+  height: 150px;
+  width: 150px;
+  margin: 0px 15px 00px 0px;
+}
+.navbar-brand {
+  padding-top: 0px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif; 
+  color: #fff;
+  opacity: 0.8;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 30px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand h2 {
+  font-family: 'Lora',serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navigation{
+  margin-left: 0;
+  margin-top: 0;
+  width: 100%;
+}
+.navigation ul li{
+  display: inline-block;
+  line-height: 20px;
+  float: left;
+  margin: 0 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.navigation ul li a{
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  float:center;
+  transition: all;
+  transition-duration: .5s;
+}
+.navigation ul li a:hover{
+  text-decoration: none;
+  z-index: 2;
+  background:rgb(76, 38, 38); 
+  box-shadow: 1px 1px 1px 1px grey;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+#button{
+  color: #fff;
+  float: right;
+  display: flex;
+}
+
+
+a{
+  color: #fff;
+}
+
+.row{
+  width: 100%;
+}
+
+@media(min-width: 1200px){
+  #button{
+    display: none;
+  }
+  .footer_inner{
+    border-left: 1px groove;
+  border-right: 1px groove;
+   }
+   #collapsibleNavbar{
+    display: none;
+   }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+  #button{
+    display:none;
+  }
+   .container{
+    margin-left: 10px;
+  }
+  .footer_inner{
+    border-left: 1px groove;
+    border-right: 1px groove;
+   }
+   #collapsibleNavbar{
+    display: none;
+   }
+}
+
+@media(min-width: 769px) and (max-width: 992px){
+  #button{
+    display:none;
+  }
+   #medbreak{
+    white-space: break-spaces;
+  }
+   .container{
+    margin-left: 10px;
+  }
+   #smbreak{
+    display: none;
+   }
+   .footer_inner{
+    border-left: 1px groove;
+    border-right: 1px groove;
+   }
+   #collapsibleNavbar{
+    display: none;
+   }
+}
+
+@media(max-width: 768px){
+  #smbreak{
+    display: none;
+  }
+   #medbreak{
+    white-space: break-spaces;
+  }
+  .container{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navigation{
+    display: none;
+  }
+  #logo-img{
+    background-size: 3.5rem;
+    height: 4rem;
+    width: 4rem;
+    margin: 20px 15px 00px 0px;
+  }
+  #xs1{
+    font-size: x-large;
+    white-space: break-spaces;
+    float: right;
+    display: contents;
+  }
+  #xs2{
+    font-size: smaller;
+  }
+  
+  .footer_content{
+    display: block;
+  }
+  .col-sm-12{
+    width: 100%;
+  }
+  
+}
+
+  #button{
+    float: right;
+  }
+
+
+/*-------------------FOOTER------------------*/
+footer{
+  color: rgb(255,255,255);
+  width: 100%;
+  background: #603030;
+  position: relative;
+  bottom: 0;
+  clear: both;
+}
+
+footer .footer_content{
+  border-top: 2px solid #502020;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+.footer_inner{
+  flex:1;
+  font-family: -webkit-body;
+  margin-top: 25px;
+  overflow: auto;
+  }
+
+#footer_contact{
+  text-align: center;
+  overflow: hidden;
+}
+
+#footer_links{
+  font-size: 15px;
+  text-align: center;
+}
+
+#footer_us{
+  text-align: center;
+}
+
+.footer_base{
+
+  color: #fff;
+  background: #502020;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  padding: auto;
+  margin-top: 0;
+}
+
+#contact-logo{
+  margin: auto;
+  transition: width;
+  margin-right: 40px;
+}
+
+#facebook-logo{
+  margin-right: 30px;
+  transition: all;
+  transition-duration: .5s;
+}
+
+#email-logo{
+  transition: all;
+  transition-duration: .5s;
+}
+
+#facebook-logo:hover{
+  width: 30px;
+  z-index: 2;
+  box-shadow: 3px 3px 2px black;
+}
+
+#email-logo:hover{
+  width: 30px;
+  z-index: 2;
+  box-shadow: 3px 3px 2px black;
+}
+
+.footer_head{
+  background-color:#502020; 
+}
+
+
+
+
+/*------------------BODY--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
